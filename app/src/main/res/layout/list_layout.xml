@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+
+    <TextView
+        android:id="@+id/n_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.088" />
+
+    <TextView
+        android:id="@+id/o_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Owner name"
+        android:textSize="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/n_tv"
+        app:layout_constraintVertical_bias="0.064" />
+
+    <TextView
+        android:id="@+id/ntv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toEndOf="@+id/n_tv"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.087" />
+
+    <TextView
+        android:id="@+id/otv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toEndOf="@+id/o_tv"
+        app:layout_constraintTop_toBottomOf="@+id/ntv"
+        app:layout_constraintVertical_bias="0.064" />
+</androidx.constraintlayout.widget.ConstraintLayout>
